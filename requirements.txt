@@ -7,7 +7,7 @@ datasets
 scipy
 loralib 
 sentencepiece
-bitsandbytes
+git+https://github.com/timdettmers/bitsandbytes.git
 git+https://github.com/huggingface/peft.git
 git+https://github.com/huggingface/transformers
 
