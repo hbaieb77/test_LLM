@@ -1,7 +1,7 @@
 streamlit
 streamlit-chat
 transformers
-accelerate==0.18.0
+accelerate===0.20.3
 torch
 datasets 
 scipy
@@ -9,4 +9,6 @@ loralib
 sentencepiece==0.1.98
 bitsandbytes==0.38.1
 git+https://github.com/huggingface/peft.git
+
+
 
