@@ -1,6 +1,7 @@
 streamlit
 streamlit-chat
 transformers
+accelerate
 torch
 datasets 
 scipy
