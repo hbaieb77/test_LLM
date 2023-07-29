@@ -3,6 +3,7 @@ streamlit-chat
 transformers
 torch
 datasets 
+scipy
 loralib 
 sentencepiece
 bitsandbytes
