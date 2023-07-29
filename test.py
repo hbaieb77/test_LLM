@@ -1,7 +1,7 @@
 
 import os
 import bitsandbytes as bnb
-os.system('git clone https://github.com/tloen/alpaca-lora.git')
+#os.system('git clone https://github.com/tloen/alpaca-lora.git')
 import streamlit as st
 from streamlit_chat import message as st_message
 
