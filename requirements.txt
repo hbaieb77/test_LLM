@@ -6,6 +6,7 @@ torch
 datasets 
 scipy
 loralib 
+bitsandbytes
 sentencepiece
 git+https://github.com/timdettmers/bitsandbytes.git
 git+https://github.com/huggingface/peft.git
