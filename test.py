@@ -5,6 +5,15 @@ from transformers import BlenderbotForConditionalGeneration
 from transformers import GenerationConfig
 from transformers import AutoTokenizer, AutoConfig, LlamaForCausalLM, LlamaTokenizer
 
+tokenizer = LlamaTokenizer.from_pretrained("wxjiao/alpaca-7b")
+
+model2 = LlamaForCausalLM.from_pretrained(
+    "wxjiao/alpaca-7b",
+    load_in_8bit=True,
+    device_map="auto",
+)
+
+
 @st.experimental_singleton
 def get_models():
     # it may be necessary for other frameworks to cache the model
