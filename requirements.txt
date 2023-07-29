@@ -1,11 +1,11 @@
 streamlit
 streamlit-chat
 git+https://github.com/huggingface/transformers
-torch==1.13.1 
-accelerate>=0.20.3
-sentencepiece==0.1.98 
+torch>=1.5.0
+scikit-learn
+accelerate>=0.20.3 
 protobuf==3.20.1
-bitsandbytes==0.38.1
+bitsandbytes>=0.39.0
 datasets 
 scipy
 loralib 
