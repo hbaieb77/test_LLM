@@ -1,5 +1,7 @@
-!git clone https://github.com/tloen/alpaca-lora.git 
 
+import os
+ 
+os.system('git clone https://github.com/tloen/alpaca-lora.git')
 import streamlit as st
 from streamlit_chat import message as st_message
 from transformers import BlenderbotTokenizer
