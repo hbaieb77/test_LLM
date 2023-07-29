@@ -8,7 +8,7 @@ from streamlit_chat import message as st_message
 from transformers import GenerationConfig
 from transformers import AutoTokenizer, AutoConfig, LlamaForCausalLM, LlamaTokenizer
 
-tokenizer = LlamaTokenizer.from_pretrained("wxjiao/alpaca-7b")
+#tokenizer = LlamaTokenizer.from_pretrained("wxjiao/alpaca-7b")
 
 model2 = LlamaForCausalLM.from_pretrained(
     "wxjiao/alpaca-7b",
@@ -21,9 +21,9 @@ model2 = LlamaForCausalLM.from_pretrained(
 def get_models():
     # it may be necessary for other frameworks to cache the model
     # seems pytorch keeps an internal state of the conversation
-    model_name = "facebook/blenderbot-400M-distill"
-    tokenizer = BlenderbotTokenizer.from_pretrained(model_name)
-    model = BlenderbotForConditionalGeneration.from_pretrained(model_name)
+    # model_name = "facebook/blenderbot-400M-distill"
+    # tokenizer = BlenderbotTokenizer.from_pretrained(model_name)
+    # model = BlenderbotForConditionalGeneration.from_pretrained(model_name)
     return tokenizer, model
 
 
