@@ -5,7 +5,7 @@ scikit-learn
 torch
 accelerate>=0.20.3
 sentencepiece
-https://github.com/timdettmers/bitsandbytes.git
+git+https://github.com/timdettmers/bitsandbytes.git
 datasets 
 scipy
 loralib 
