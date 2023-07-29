@@ -1,11 +1,11 @@
 streamlit
 streamlit-chat
-transformers
+git+https://github.com/huggingface/transformers
 accelerate
 torch
 datasets 
 scipy
 loralib 
-sentencepiece
-git+https://github.com/timdettmers/bitsandbytes.git
+sentencepiece 
+bitsandbytes
 git+https://github.com/huggingface/peft.git
