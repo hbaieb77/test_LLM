@@ -1,5 +1,4 @@
 
-git+https://github.com/huggingface/transformers.git 
 git+https://github.com/huggingface/peft.git
 git+https://github.com/huggingface/transformers
 accelerate >= 0.12.0
