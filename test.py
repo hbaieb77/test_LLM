@@ -6,9 +6,9 @@ import streamlit as st
 from streamlit_chat import message as st_message
 
 from transformers import GenerationConfig
-#from transformers import AutoTokenizer, AutoConfig, LlamaForCausalLM, LlamaTokenizer
+from transformers import AutoTokenizer, AutoConfig, LlamaForCausalLM, LlamaTokenizer
 
-#tokenizer = LlamaTokenizer.from_pretrained("wxjiao/alpaca-7b")
+tokenizer = LlamaTokenizer.from_pretrained("wxjiao/alpaca-7b")
 
 model2 = LlamaForCausalLM.from_pretrained(
     "wxjiao/alpaca-7b",
