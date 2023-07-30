@@ -12,8 +12,8 @@ tokenizer = LlamaTokenizer.from_pretrained("wxjiao/alpaca-7b")
 
 model2 = LlamaForCausalLM.from_pretrained(
     "wxjiao/alpaca-7b",
-    load_in_8bit=True,
-    device_map="auto",
+    load_in_8bit_fp32_cpu_offload=True,
+    from_pretrained="auto",
 )
 
 
